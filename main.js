@@ -24,4 +24,13 @@
 // console.log(notString('not bad'));
 
 
-3.
+// 3.https://the-winter.github.io/codingjs/exercise.html?name=frontBack&title=Warmup-1
+
+function frontBack(str) {
+    if (str.length <= 1) {
+      return str;
+    }
+  
+    return str[str.length - 1] + str.slice(1, str.length - 1) + str[0];
+  }
+  
